@@ -75,7 +75,7 @@
     "react": "*",
     "react-native": "*",
     "react-native-gesture-handler": "2.*.*",
-    "react-native-reanimated": "2.*.*",
+    "react-native-reanimated": "3.*.*",
     "@react-native-masked-view/masked-view": "*"
   },
   "jest": {
