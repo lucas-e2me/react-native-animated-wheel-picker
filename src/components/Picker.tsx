@@ -5,6 +5,7 @@ import {
   StyleProp,
   TextStyle,
   ViewStyle,
+  ColorValue,
 } from 'react-native';
 import React from 'react';
 import Animated, {
@@ -38,7 +39,7 @@ export type PickerProps = ViewProps & {
   textStyle?: StyleProp<TextStyle>;
   maskedComponents?: JSX.Element | JSX.Element[];
   contentContainerStyle?: StyleProp<ViewStyle>;
-  selectedViewColor?: StyleProp<ViewStyle>;
+  selectedViewColor?: ColorValue;
   onSelected: (data: PickerData, index: number) => void;
 };
 const Picker = ({
